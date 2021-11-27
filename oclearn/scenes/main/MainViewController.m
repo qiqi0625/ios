@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "MainViewController.h"
 #import "algorithm.h"
+#import "ARMTest.h"
 
 @implementation MainViewController : UIViewController
 
@@ -31,8 +32,12 @@
 //    [algo test_base64];
 //    [algo test_md5];
 //    [algo test_hex2byte];
-    [algo test_origin];
+//    [algo test_origin];
     
+    /*
+     * arm指令熟悉
+     */
+    [[ArmTest create] test_all];
     
     NSLog(@"over");
 }

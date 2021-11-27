@@ -22,6 +22,7 @@
 		51324BEB2747DCF2000230BC /* md5.m in Sources */ = {isa = PBXBuildFile; fileRef = 51324BEA2747DCF2000230BC /* md5.m */; };
 		51324BEF2748ED4C000230BC /* hex2byte.m in Sources */ = {isa = PBXBuildFile; fileRef = 51324BEE2748ED4C000230BC /* hex2byte.m */; };
 		51324BF4274A833D000230BC /* rsa.m in Sources */ = {isa = PBXBuildFile; fileRef = 51324BF3274A833D000230BC /* rsa.m */; };
+		51705A192751250E00D08672 /* ARMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 51705A182751250E00D08672 /* ARMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,8 @@
 		51324BEE2748ED4C000230BC /* hex2byte.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hex2byte.m; sourceTree = "<group>"; };
 		51324BF2274A82F1000230BC /* rsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
 		51324BF3274A833D000230BC /* rsa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rsa.m; sourceTree = "<group>"; };
+		51705A172751250100D08672 /* ARMTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARMTest.h; sourceTree = "<group>"; };
+		51705A182751250E00D08672 /* ARMTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		51324BAF2743EC2F000230BC /* oclearn */ = {
 			isa = PBXGroup;
 			children = (
+				51705A16275124E600D08672 /* arm */,
 				51324BD827451F5A000230BC /* res */,
 				51324BCC2743EE8F000230BC /* scenes */,
 				51324BCB2743EE06000230BC /* util */,
@@ -144,6 +148,15 @@
 				51324BDE27452ED7000230BC /* MainViewController.m */,
 			);
 			path = main;
+			sourceTree = "<group>";
+		};
+		51705A16275124E600D08672 /* arm */ = {
+			isa = PBXGroup;
+			children = (
+				51705A172751250100D08672 /* ARMTest.h */,
+				51705A182751250E00D08672 /* ARMTest.m */,
+			);
+			path = arm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51705A192751250E00D08672 /* ARMTest.m in Sources */,
 				51324BF4274A833D000230BC /* rsa.m in Sources */,
 				51324BE7274686AD000230BC /* base64.m in Sources */,
 				51324BB82743EC2F000230BC /* ViewController.m in Sources */,
